@@ -1,0 +1,11 @@
+Written by pschake34
+This file shows the basic idea of how the code for useless box will work
+
+
+in an endless loop do this:
+	IF the switch attached to pin 2 is equal to HIGH and variable is equal to 1 do:
+		rotate the servo 45 degrees
+		set  variable to 0
+	ELSE do:
+		set variable equal to 1
+
