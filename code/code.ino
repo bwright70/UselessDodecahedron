@@ -7,7 +7,7 @@
 Servo myServo;
 
 int switchPin = 2;
-int servoPin = 4;
+int servoPin = 12;
 int i = 0;
 int switchStatus;
 
