@@ -1,0 +1,4 @@
+﻿"sheetThickness"= 3.18mm
+"kerf"= .22mm
+"halfkerf"= "kerf" / 2
+"tabThickness"=12
