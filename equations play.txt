@@ -1,0 +1,6 @@
+﻿"sheetThickness"= 3.18mm
+"kerf"= .22mm
+"halfkerf"= "kerf" / 2
+"D1@Sketch2"="sheetThickness"
+"tabThickness"=12
+"D2@Sketch2"="tabThickness"
