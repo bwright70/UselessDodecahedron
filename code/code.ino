@@ -10,26 +10,36 @@ int switchPin = 2;
 int servoPin = 12;
 int i = 0;
 int switchStatus;
+int pos = 90;
+int servoDirection;
 
 void setup() {
   Serial.begin(9600);
   myServo.attach(servoPin);
   pinMode(switchStatus, INPUT);
-  myServo.write(90);
+  myServo.write(pos);
 }
 
 void loop() {
   switchStatus = digitalRead(switchPin);
-  myServo.write(90);
-
   Serial.println(switchStatus);
 
   if (switchStatus == HIGH && i == 1) {
-      myServo.write(135);
-      i = 0;
-      myServo.write(90);
+    while (true) {
+      myServo.write(pos);
+      pos++;
+      delay(75);
+      Serial.println(pos);
+      if (pos > 180) {
+        pos = 90;
+        continue;
+      }
+      
     }
+    i--;
+  }
   else {
-      i = 1;
-    }
+    i = 1;
+    pos = 90;
+  }
 }
