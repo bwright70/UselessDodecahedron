@@ -1,3 +1,4 @@
 In order to replicate this project one would need to produce the materials found in 
-/docs/material-list.txt. To assemble the product, see the pictures and follow the wiring diagram.
-Upload the code, plug in the battery, and go!
+/docs/material-list.txt. To assemble the product, laser cut the parts from a meterial of your choice
+(we used acrylic) friction fit them together, and follow the wiring diagram to assemble the wiring.
+Upload the code provided at /code/code.ino, plug in the battery, and go!
