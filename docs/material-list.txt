@@ -1,0 +1,10 @@
+1 Servo (180 Degree)
+1 9V Battery
+1 9V Battery Holder
+1 Arduino Uno rev3
+X wires
+1 220ohm resistor
+2 Switches
+X Acrylic Pentagons (3.2mm Thick)
+X Screws and Nuts of various varieties (make newline for each)
+

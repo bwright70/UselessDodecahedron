@@ -1,0 +1,2 @@
+Ben had some problems in solidworks with equations and learned a lot in the process.
+Paul took a while realizing how to make the arduino do what he wanted it to do.
